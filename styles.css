@@ -7,6 +7,9 @@
 
 /* Header Section*/
 
+
+
+
 .main-logo {
     margin-top: 20px;
 }
@@ -26,7 +29,10 @@ h4 {
     color: #747704;
 }
 
+
+
 /* hr */
+
 
 hr {
     border: 0;
@@ -43,6 +49,10 @@ hr {
 .size {
     width: 100%;
 }
+
+
+
+
 /* Featured */
 
 h3.featured {
@@ -57,16 +67,15 @@ h3.featured {
 /* Profile */
 
 
- .pfofile-link {
-        margin-bottom: 10px;
-    }
+.pfofile-link {
+    margin-bottom: 10px;
+}
 
 .pfofile-link img {
     width: 100%;
     height: auto;
     margin-bottom: 10px;
 }
-
 
 .profile-title {
     font-size: 30px;
@@ -79,18 +88,22 @@ a {
     color: #747704;
 }
 
-
 p {
     font-size: 16px;
 }
 
 
+
+
 /* Footer */
+
+
+
+
 
 .copyright {
     padding: 20px 0 10px 0;
 }
-
 
 .bg-4 {
     background-color: #ddd;
@@ -102,8 +115,6 @@ p {
 
 /* Large desktops and laptops */
 @media (min-width: 1200px) {
-
-
 }
 
 /* Landscape tablets and medium desktops */
@@ -111,15 +122,11 @@ p {
 
     .pfofile-link img {
         height: 250px;
-}
-
+    };
 }
 
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
-
-
-
 }
 
 /* Landscape phones and portrait tablets */
@@ -127,9 +134,7 @@ p {
 
     .size {
         height: auto;
-    }
-
-
+    };
 }
 
 /* Portrait phones and smaller */
@@ -139,11 +144,8 @@ p {
         height: auto;
     }
 
-
     .container {
         padding-right: 9px;
         padding-left: 9px;
-
-    }
-
+    };
 }
