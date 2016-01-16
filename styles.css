@@ -1,0 +1,149 @@
+* {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Header Section*/
+
+.main-logo {
+    margin-top: 20px;
+}
+
+.header-title {
+    text-align: right;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 50px;
+    color: #BCBBBB;
+}
+
+h4 {
+    font-size: 22px;
+    color: #747704;
+}
+
+/* hr */
+
+hr {
+    border: 0;
+    height: 4px;
+    background: #BCBBBB;
+}
+
+
+
+
+/* Banner */
+
+
+.size {
+    width: 100%;
+}
+/* Featured */
+
+h3.featured {
+    padding: 10px 0 10px 15px;
+    color: #BCBBBB;
+    font-size: 40px;
+}
+
+
+
+
+/* Profile */
+
+
+ .pfofile-link {
+        margin-bottom: 10px;
+    }
+
+.pfofile-link img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+
+.profile-title {
+    font-size: 30px;
+    margin-top: 15px;
+    color: #747704;
+    text-transform: uppercase;
+}
+
+a {
+    color: #747704;
+}
+
+
+p {
+    font-size: 16px;
+}
+
+
+/* Footer */
+
+.copyright {
+    padding: 20px 0 10px 0;
+}
+
+
+.bg-4 {
+    background-color: #ddd;
+    margin-top: 30px;
+}
+
+
+
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .pfofile-link img {
+        height: 250px;
+}
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+    .size {
+        height: auto;
+    }
+
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+    .size {
+        height: auto;
+    }
+
+
+    .container {
+        padding-right: 9px;
+        padding-left: 9px;
+
+    }
+
+}
